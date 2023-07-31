@@ -74,8 +74,6 @@ namespace ImSequencer
 
       bool popupOpened = false;
       int sequenceCount = sequence->GetItemCount();
-      // if (!sequenceCount)
-      //    return false;
       ImGui::BeginGroup();
 
       ImDrawList* draw_list = ImGui::GetWindowDrawList();
