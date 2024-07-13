@@ -31,7 +31,7 @@ target_link_libraries(${PROJECT_NAME}
     PUBLIC
         imgui-core)
 
-option(IMGUIZMO_BUILD_EXAMPLE "Build example" ON)
+option(IMGUIZMO_BUILD_EXAMPLE "Build example" OFF)
 if (${IMGUIZMO_BUILD_EXAMPLE})
     add_subdirectory(example)
 endif()    
